@@ -1,0 +1,20 @@
+{
+  "name": "Blog-if",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.7",
+    "@vuepress/theme-default": "2.0.0-rc.14",
+    "vue": "^3.4.19",
+    "vuepress": "2.0.0-rc.7"
+  }
+}
