@@ -24,7 +24,7 @@ export default defineUserConfig({
             // logo图标, 静态资源存放路径为.vuepress/public
             logo: '/icon/相声团.png',
             // 仓库连接的URL
-            repo: 'https://github.com/Ramoif/Blog-if/docs'
+            repo: 'https://github.com/Ramoif/Blog-if'
         }
     ),
 })

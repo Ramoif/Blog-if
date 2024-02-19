@@ -22,3 +22,5 @@ iwr https://get.pnpm.io/install.ps1 -useb | iex
 
 自动创建可能会有一些问题，这里按照官方[快速上手](https://v2.vuepress.vuejs.org/zh/guide/getting-started.html)
 选择手动创建，并不麻烦。
+
+启动命令：pnpm docs:dev ，热重载模式启动，方便调试。
