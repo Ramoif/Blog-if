@@ -3,8 +3,12 @@ import {defaultTheme} from '@vuepress/theme-default'
 import {defineUserConfig} from 'vuepress'
 
 export default defineUserConfig({
+    // 这里会改变路由路径，例如本地部署会变为localhost:8080/Blog-if/
     base: '/Blog-if',
+    title: '粉色彩笔空间',
+    // 打包工具, vite
     bundler: viteBundler(),
+    // 配置主题
     theme: defaultTheme(
         {
             // 全局顶栏
@@ -20,7 +24,7 @@ export default defineUserConfig({
             // logo图标, 静态资源存放路径为.vuepress/public
             logo: '/icon/相声团.png',
             // 仓库连接的URL
-            repo: 'https://github.com/Ramoif'
+            repo: 'https://github.com/Ramoif/Blog-if/docs'
         }
     ),
 })
