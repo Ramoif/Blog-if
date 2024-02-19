@@ -1,26 +1,15 @@
-# Blog-if
 ---
-欢迎来到Blog-if
+home: true
+heroImage: /icon/相声团.png
+footer: 互联网ICP备案：鄂ICP备2021012009号-2    ©2021-2024 粉色彩笔空间
+footerHtml: true
+---
 
-施工中...你可以在这里选择浏览其他区域。
+---
+欢迎来到粉色彩笔空间
 
-![VuePress](/icon/相声团.png)
+施工中...但你也可以选择浏览其他区域。
 
-## 构建VuePress
 
-**准备工作：** 
 
-安装 `nvm` 或 `nodejs(>=18.16.0)`
 
-使用[pnpm工具](https://www.pnpm.cn/)代替npm， 
-在控制台输入并安装pnpm：
-```shell
-iwr https://get.pnpm.io/install.ps1 -useb | iex
-```
-
-**手动创建VuePress：**
-
-自动创建可能会有一些问题，这里按照官方[快速上手](https://v2.vuepress.vuejs.org/zh/guide/getting-started.html)
-选择手动创建，并不麻烦。
-
-启动命令：pnpm docs:dev ，热重载模式启动，方便调试。

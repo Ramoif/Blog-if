@@ -6,6 +6,7 @@ export default defineUserConfig({
     // 这里会改变路由路径，例如本地部署会变为localhost:8080/Blog-if/
     base: '/Blog-if',
     title: '粉色彩笔空间',
+    description:'Blog-if : 某个彩笔的文档网站',
     // 打包工具, vite
     bundler: viteBundler(),
     // 配置主题
@@ -18,13 +19,20 @@ export default defineUserConfig({
                 {text: "分享", link: "/share/U2Net",},
             ],
             // 不同子路径的侧边栏
-            // sidebar:{
-            //
-            // },
+            sidebar: {
+                '/share/': [{
+                    text: '分享',
+                    children: ['/share/UpdateLog.md', '/share/HowToUse.md', '/share/U2Net.md']
+                }],
+            },
             // logo图标, 静态资源存放路径为.vuepress/public
             logo: '/icon/相声团.png',
             // 仓库连接的URL
-            repo: 'https://github.com/Ramoif/Blog-if'
+            // 编辑示例：https://github.com/Ramoif/Blog-if/edit/main/docs/README.md
+            editLinkPattern: ':repo/edit/:branch/docs/:path',
+            repo: 'Ramoif/Blog-if',
+            docsRepo: 'Ramoif/Blog-if',
+            docsBranch: 'main',
         }
     ),
 })

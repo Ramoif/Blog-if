@@ -1,10 +1,14 @@
 # U^2Net源码个人注解
 
-[项目源码地址]: https://github.com/xuebinqin/U-2-Net
+[项目源码地址](https://github.com/xuebinqin/U-2-Net)
+https://github.com/xuebinqin/U-2-Net
+
+[源码部署博客](https://blog.csdn.net/weixin_44296539/article/details/128979983)
+https://blog.csdn.net/weixin_44296539/article/details/128979983
 
 这是一篇发布于2020年，发布在CVPR上的一篇有关显著性目标检测（ Salient Object Detetion）的文章。作用根据官网提供的案例主要是提取图像中突出的区域。代码中还包含了有关于素描风格肖像画生成的有关代码。
 
-**写在前面**：因为是本人第一个CV学习的项目，可能在某些地方的解释有些问题。另外注意本项目微调了部分代码，一般会注释解释是否替换（有可能忘了），可能替换成最新版本pytorch使用的写法，注意和源码区别。
+**写在前面**：因为是第一个CV学习的项目，可能在某些地方的解释有些问题。另外注意本项目微调了部分代码，一般会注释解释是否替换（有可能忘了），可能替换成最新版本pytorch使用的写法，注意和源码区别。
 
 
 
