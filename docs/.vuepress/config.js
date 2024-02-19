@@ -4,7 +4,8 @@ import {defineUserConfig} from 'vuepress'
 
 export default defineUserConfig({
     // 这里会改变路由路径，例如本地部署会变为localhost:8080/Blog-if/
-    base: '/Blog-if',
+    // 部署到Linux下请不要添加此项
+    // base:'/Blog-if/',
     title: '粉色彩笔空间',
     description:'Blog-if : 某个彩笔的文档网站',
     // 打包工具, vite
@@ -16,7 +17,7 @@ export default defineUserConfig({
             navbar: [
                 {text: "首页", link: "/",},
                 {text: "更新日志", link: "/share/UpdateLog",},
-                {text: "分享", link: "/share/U2Net",},
+                {text: "分享", link: "/share/UpdateLog",},
             ],
             // 不同子路径的侧边栏
             sidebar: {
