@@ -3,6 +3,7 @@ import {defaultTheme} from '@vuepress/theme-default'
 import {defineUserConfig} from 'vuepress'
 
 export default defineUserConfig({
+    base: '/Blog-if',
     bundler: viteBundler(),
     theme: defaultTheme(
         {
@@ -14,7 +15,7 @@ export default defineUserConfig({
             ],
             // 不同子路径的侧边栏
             // sidebar:{
-            //     
+            //
             // },
             // logo图标, 静态资源存放路径为.vuepress/public
             logo: '/icon/相声团.png',

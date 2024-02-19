@@ -1,20 +1,12 @@
----
-lang: zh-CN
-title: Blog-if 首页
-description: 首页
----
-
 # Blog-if
 ---
 欢迎来到Blog-if
 
-施工中...你可以在这里选择浏览其他区域：
+施工中...你可以在这里选择浏览其他区域。
 
-2024.2.19 [U2Net简介](../share/U2Net简介.md)
+![VuePress](/icon/相声团.png)
 
-
-
-## 构建VuePress项目:raised_back_of_hand:
+## 构建VuePress
 
 **准备工作：** 
 
