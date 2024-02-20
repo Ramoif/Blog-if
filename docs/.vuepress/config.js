@@ -17,7 +17,7 @@ export default defineUserConfig({
             navbar: [
                 {text: "首页", link: "/",},
                 {text: "更新日志", link: "/share/UpdateLog",},
-                {text: "分享", link: "/share/UpdateLog",},
+                {text: "分享", link: "/share/HowToUse",},
             ],
             // 不同子路径的侧边栏
             sidebar: {
@@ -26,8 +26,8 @@ export default defineUserConfig({
                     children: ['/share/UpdateLog.md', '/share/HowToUse.md', '/share/U2Net.md']
                 }],
             },
-            // logo图标, 静态资源存放路径为.vuepress/public
-            logo: '/icon/相声团.png',
+            // logo图标, 静态资源存放路径为.vuepress/public, 但是通过vuepress语法部署无法访问，使用图床。
+            logo: 'https://i.postimg.cc/cJwyB1cG/image.png',
             // 仓库连接的URL
             // 编辑示例：https://github.com/Ramoif/Blog-if/edit/main/docs/README.md
             editLinkPattern: ':repo/edit/:branch/docs/:path',
